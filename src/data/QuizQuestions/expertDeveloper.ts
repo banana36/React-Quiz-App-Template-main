@@ -5,18 +5,18 @@
 
 import { Topic } from '.'
 import CodeSnippet1 from '../../assets/images/code-snippet-1.png'
-import reactJson from './react.json'
+import reactJson from './expertDeveloper.json'
 import { shuffleArrayRandom } from '../../utils/helpers'
 
-const reactJson1 = shuffleArrayRandom(reactJson, 2)
+const reactJson1 = shuffleArrayRandom(reactJson, 50)
 console.log("DEBUG::  ~ reactJson1:", reactJson1)
 
 export const ExpertDeveloper: Topic = {
-  topic: 'ExpertDeveloper',
+  topic: 'Expert Developer',
   level: 'Intermediate', 
-  totalQuestions: 11,
-  totalScore: 95,
-  totalTime: 600,
+  totalQuestions: 50,
+  totalScore: 50,
+  totalTime: 5976,
   questions: reactJson1
   /* questions: [
     {

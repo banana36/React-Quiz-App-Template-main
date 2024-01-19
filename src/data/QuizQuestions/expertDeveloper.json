@@ -11,14 +11,14 @@
       "correctAnswers": [
         "A syntax extension for JavaScript that allows writing HTML-like code in JavaScript"
       ],
-      "score": 10
+      "score": 1
     },
     {
       "question": "React components must always return a single JSX element.",
       "choices": ["True", "False"],
       "type": "boolean",
       "correctAnswers": ["True"],
-      "score": 5
+      "score": 1
     },
     {
       "question": "What is the purpose of React components?",
@@ -30,7 +30,7 @@
       ],
       "type": "MCQs",
       "correctAnswers": ["To define the structure and appearance of the user interface"],
-      "score": 10
+      "score": 1
     },
     {
       "question":
@@ -43,6 +43,6 @@
       ],
       "type": "MAQs",
       "correctAnswers": ["componentDidMount", "componentWillUpdate", "componentDidUpdate"],
-      "score": 10
+      "score": 1
     }
 ]

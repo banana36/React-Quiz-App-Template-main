@@ -32,7 +32,7 @@ export type Topic = {
 
 export const quiz: Record<string, Topic> = {
   JavaScript: javascript,
-  ExpertDeveloper: ExpertDeveloper,
+  "Expert Developer": ExpertDeveloper,
   Python: python,
   'General Knowledge': generalKnowledge,
 }

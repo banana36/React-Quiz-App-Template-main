@@ -47,10 +47,10 @@ const QuizDetailsScreen = () => {
   return (
     <PageCenter light justifyCenter>
       <CenterCardContainer>
-        <LogoContainer>
+        {/* <LogoContainer>
           <AppLogo />
-        </LogoContainer>
-        <AppTitle>XEVEN QUIZ</AppTitle>
+        </LogoContainer> */}
+        <AppTitle>AEM QUIZ</AppTitle>
         <DetailTextContainer>
           <DetailText>
             Selected Quiz Topic: <HighlightedText>{selectedQuizTopic}</HighlightedText>
