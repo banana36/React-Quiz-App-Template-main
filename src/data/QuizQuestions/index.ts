@@ -1,7 +1,9 @@
-import { generalKnowledge } from './generalKnowledge'
-import { javascript } from './javascript'
-import { python } from './python'
-import { ExpertDeveloper } from './expertDeveloper'
+import { businessPractionerProfessional } from './bussinessPractionerProfessional';
+import { businessPractionerExpert } from './businessPractionerExpert';
+import { DeveloperProfessional } from './developerProfessional';
+import { DeveloperExpert } from './developerExpert';
+import { Architect } from './architect';
+
 
 // Question Types
 // 1. MCQs | Multiple Choice | single
@@ -31,8 +33,9 @@ export type Topic = {
 }
 
 export const quiz: Record<string, Topic> = {
-  JavaScript: javascript,
-  "Expert Developer": ExpertDeveloper,
-  Python: python,
-  'General Knowledge': generalKnowledge,
+  "Bussiness Practitioner Professional": businessPractionerProfessional,
+  "Bussiness Practitioner Expert": businessPractionerExpert,
+  "Developer Professional": DeveloperProfessional,
+  "Developer Expert": DeveloperExpert,
+  "Architect": Architect
 }
