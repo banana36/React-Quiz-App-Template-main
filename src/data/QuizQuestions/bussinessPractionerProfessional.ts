@@ -4,7 +4,7 @@
 // 3. MAQs | Multiple Answers | multiple
 
 import { Topic } from '.'
-import businessPractionerProfessionalJson from './businessPractionerProfessional.json'
+import businessPractionerProfessionalJson from './json/businessPractionerProfessional.json'
 import { shuffleArrayRandom } from '../../utils/helpers'
 
 const json = shuffleArrayRandom(businessPractionerProfessionalJson, 50)

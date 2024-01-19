@@ -4,7 +4,7 @@
 // 3. MAQs | Multiple Answers | multiple
 
 import { Topic } from '.'
-import architectJson from './architect.json'
+import architectJson from './json/architect.json'
 import { shuffleArrayRandom } from '../../utils/helpers'
 
 const json = shuffleArrayRandom(architectJson, 50)

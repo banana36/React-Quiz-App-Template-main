@@ -4,7 +4,7 @@
 // 3. MAQs | Multiple Answers | multiple
 
 import { Topic } from '.'
-import developerProfessionalJson from './developerProfessional.json'
+import developerProfessionalJson from './json/developerProfessional.json'
 import { shuffleArrayRandom } from '../../utils/helpers'
 
 const json = shuffleArrayRandom(developerProfessionalJson, 50);
