@@ -47,9 +47,9 @@ const QuizDetailsScreen = () => {
   return (
     <PageCenter light justifyCenter>
       <CenterCardContainer>
-        {/* <LogoContainer>
+        <LogoContainer>
           <AppLogo />
-        </LogoContainer> */}
+        </LogoContainer>
         <AppTitle>AEM QUIZ</AppTitle>
         <DetailTextContainer>
           <DetailText>

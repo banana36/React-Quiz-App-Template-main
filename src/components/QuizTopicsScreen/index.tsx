@@ -88,9 +88,9 @@ const QuizTopicsScreen: React.FC = () => {
   return (
     <PageCenter light justifyCenter>
       <CenterCardContainer>
-{/*         <LogoContainer>
+        <LogoContainer>
           <AppLogo />
-        </LogoContainer> */}
+        </LogoContainer>
         <Heading>
           WELCOME TO <HighlightedText> AEM QUIZ</HighlightedText>
         </Heading>

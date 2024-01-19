@@ -140,9 +140,9 @@ const QuestionScreen: FC = () => {
 
   return (
     <PageCenter>
-      {/* <LogoContainer>
+      <LogoContainer>
         <AppLogo />
-      </LogoContainer> */}
+      </LogoContainer>
       <QuizContainer selectedAnswer={selectedAnswer.length > 0}>
         <QuizHeader
           activeQuestion={activeQuestion}
