@@ -5,6 +5,11 @@
 
 import { Topic } from '.'
 import CodeSnippet1 from '../../assets/images/code-snippet-1.png'
+import reactJson from '../QuizQuestions/react.json'
+import { shuffleArrayRandom } from '../../utils/helpers'
+
+const reactJson1 = shuffleArrayRandom(reactJson, 2)
+console.log("DEBUG::  ~ reactJson1:", reactJson1)
 
 export const react: Topic = {
   topic: 'React',
@@ -12,7 +17,8 @@ export const react: Topic = {
   totalQuestions: 11,
   totalScore: 95,
   totalTime: 600,
-  questions: [
+  questions: reactJson1
+  /* questions: [
     {
       question: 'What is JSX in React?',
       choices: [
@@ -171,5 +177,5 @@ export default App;`,
       correctAnswers: ['True'],
       score: 5,
     },
-  ],
+  ], */
 }
