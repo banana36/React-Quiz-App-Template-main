@@ -25,7 +25,6 @@ export type Question = {
 
 export type Topic = {
   topic: string
-  level: string
   totalQuestions: number
   totalScore: number
   totalTime: number
