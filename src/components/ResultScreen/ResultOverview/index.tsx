@@ -35,7 +35,7 @@ const ResultOverview: FC<ResultOverviewProps> = ({ result }) => {
 
   // Passed if 60 or more than 60% marks
   const calculateStatus =
-    (obtainedScore / quizDetails.totalScore) * 100 >= 60 ? 'Passed' : 'Failed'
+    obtainedScore >= quizDetails.minimumScore ? 'Passed' : 'Failed'
 
   return (
     <ResultOverviewStyle>

@@ -26,6 +26,7 @@ export type Question = {
 export type Topic = {
   topic: string
   totalQuestions: number
+  minimumScore: number
   totalScore: number
   totalTime: number
   questions: Question[]

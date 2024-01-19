@@ -30,6 +30,7 @@ export type QuizContextTypes = {
   quizDetails: {
     totalQuestions: number
     totalScore: number
+    minimumScore: number
     totalTime: number
     selectedQuizTopic: string
   }

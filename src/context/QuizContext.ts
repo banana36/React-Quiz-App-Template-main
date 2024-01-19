@@ -18,6 +18,7 @@ export const initialState: QuizContextTypes = {
     totalQuestions: 0,
     totalScore: 0,
     totalTime: 0,
+    minimumScore: 0,
     selectedQuizTopic: 'Bussiness Practitioner Professional',
   },
 }

@@ -38,7 +38,7 @@ const DetailText = styled.p`
 const QuizDetailsScreen = () => {
   const { setCurrentScreen, quizDetails } = useQuiz()
 
-  const { selectedQuizTopic, totalQuestions, totalScore, totalTime } = quizDetails
+  const { selectedQuizTopic, totalQuestions, totalScore, totalTime, minimumScore } = quizDetails
 
   const goToQuestionScreen = () => {
     setCurrentScreen(ScreenTypes.QuestionScreen)
@@ -60,14 +60,14 @@ const QuizDetailsScreen = () => {
             <HighlightedText>{totalQuestions}</HighlightedText>
           </DetailText>
           <DetailText>
+            Required minimum of right questions:{' '}
+            <HighlightedText>{minimumScore}</HighlightedText>
+          </DetailText>
+          <DetailText>
             Score in total: <HighlightedText>{totalScore}</HighlightedText>
           </DetailText>
           <DetailText>
             Total time: <HighlightedText>{convertSeconds(totalTime)}</HighlightedText>
-          </DetailText>
-          <DetailText>
-            To save time, you can skip questions. Skipped questions will show up at the
-            end of the quiz.
           </DetailText>
         </DetailTextContainer>
         <Button

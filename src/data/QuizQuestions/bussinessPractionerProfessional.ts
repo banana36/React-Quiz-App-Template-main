@@ -12,6 +12,7 @@ const json = shuffleArrayRandom(businessPractionerProfessionalJson, 50)
 export const businessPractionerProfessional: Topic = {
   topic: 'Business Practionel Professional',
   totalQuestions: 50,
+  minimumScore: 30,
   totalScore: 50,
   totalTime: 5976,
   questions: json

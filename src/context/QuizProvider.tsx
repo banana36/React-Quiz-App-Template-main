@@ -21,6 +21,7 @@ const QuizProvider = ({ children }: QuizProviderProps) => {
   const {
     questions: quizQuestions,
     totalQuestions,
+    minimumScore,
     totalTime,
     totalScore,
   } = quiz[quizTopic]
@@ -37,6 +38,7 @@ const QuizProvider = ({ children }: QuizProviderProps) => {
   const quizDetails = {
     totalQuestions,
     totalScore,
+    minimumScore,
     totalTime,
     selectedQuizTopic: quizTopic,
   }
