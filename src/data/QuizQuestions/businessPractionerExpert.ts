@@ -14,6 +14,6 @@ export const businessPractionerExpert: Topic = {
   totalQuestions: 50,
   minimumScore:30,
   totalScore: 50,
-  totalTime: 5976,
+  totalTime: 6000,
   questions: json
 }
